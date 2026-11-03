@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": "worldfoods:raw_samosa",
+  "result": {
+    "id": "worldfoods:samosa"
+  }
+}

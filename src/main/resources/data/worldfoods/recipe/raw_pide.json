@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:cheese",
+    "worldfoods:minced_meat",
+    "minecraft:egg"
+  ],
+  "result": {
+    "id": "worldfoods:raw_pide"
+  }
+}

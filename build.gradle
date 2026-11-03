@@ -1,0 +1,79 @@
+plugins {
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+def target = project.property('target')
+def versionProps = new Properties()
+file("versions/${target}.properties").withInputStream { versionProps.load(it) }
+versionProps.each { k, v -> project.ext.set(k, v) }
+
+version = "${project.mod_version}+mc${target}"
+group = project.maven_group
+
+// Version-specific sources/resources (Minecraft changed some APIs and data formats in 26.3)
+sourceSets {
+	main {
+		java.srcDir "src/${project.compat}/java"
+		resources.srcDir "src/${project.compat}/resources"
+	}
+}
+
+base {
+	archivesName = project.archives_base_name
+}
+
+loom {
+	mods {
+		"worldfoods" {
+			sourceSet sourceSets.main
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	testImplementation "net.fabricmc:fabric-loader-junit:${project.loader_version}"
+	testImplementation platform("org.junit:junit-bom:5.13.4")
+	testImplementation "org.junit.jupiter:junit-jupiter"
+	testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+test {
+	useJUnitPlatform()
+	systemProperty "worldfoods.compat", project.compat
+	testLogging {
+		events "passed", "failed"
+		exceptionFormat "full"
+		showStandardStreams = true
+	}
+}
+
+processResources {
+	def props = [version: project.version, minecraft_range: project.minecraft_range, loader_version: project.loader_version]
+	inputs.properties props
+
+	filesMatching("fabric.mod.json") {
+		expand props
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = 'UTF-8'
+	it.options.compilerArgs << '-Xlint:deprecation'
+}
+
+java {
+	withSourcesJar()
+	sourceCompatibility = JavaVersion.VERSION_25
+	targetCompatibility = JavaVersion.VERSION_25
+}
+
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.archives_base_name}" }
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:egg",
+    "worldfoods:sausage",
+    "minecraft:bread",
+    "worldfoods:tomato",
+    "minecraft:brown_mushroom"
+  ],
+  "result": {
+    "id": "worldfoods:full_breakfast"
+  }
+}

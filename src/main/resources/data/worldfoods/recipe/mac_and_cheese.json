@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:pasta",
+    "worldfoods:cheese",
+    "minecraft:milk_bucket",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:mac_and_cheese"
+  }
+}

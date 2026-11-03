@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:lentils",
+    "worldfoods:lentils",
+    "worldfoods:garlic",
+    "worldfoods:chili_pepper",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:dal"
+  }
+}

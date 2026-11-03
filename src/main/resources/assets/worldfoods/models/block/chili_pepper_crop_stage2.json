@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "worldfoods:block/chili_pepper_crop_stage2"
+  }
+}

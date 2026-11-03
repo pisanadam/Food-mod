@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "worldfoods:sausage",
+    "worldfoods:onion"
+  ],
+  "result": {
+    "id": "worldfoods:hot_dog"
+  }
+}

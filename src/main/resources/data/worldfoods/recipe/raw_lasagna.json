@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:pasta",
+    "worldfoods:pasta",
+    "worldfoods:tomato_sauce",
+    "worldfoods:minced_meat",
+    "worldfoods:cheese"
+  ],
+  "result": {
+    "id": "worldfoods:raw_lasagna",
+    "count": 2
+  }
+}

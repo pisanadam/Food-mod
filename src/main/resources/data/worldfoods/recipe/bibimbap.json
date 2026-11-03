@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:cooked_rice",
+    "minecraft:egg",
+    "minecraft:cooked_beef",
+    "minecraft:carrot",
+    "worldfoods:lettuce",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:bibimbap"
+  }
+}

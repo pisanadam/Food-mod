@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:tea_leaves",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "worldfoods:turkish_tea"
+  }
+}

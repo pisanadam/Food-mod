@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:mutton"
+  ],
+  "result": {
+    "id": "worldfoods:minced_meat",
+    "count": 2
+  }
+}

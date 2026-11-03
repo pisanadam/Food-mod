@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:cabbage",
+    "worldfoods:cooked_rice",
+    "worldfoods:onion"
+  ],
+  "result": {
+    "id": "worldfoods:cabbage_rolls",
+    "count": 3
+  }
+}

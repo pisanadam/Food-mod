@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:chickpeas",
+    "worldfoods:chickpeas",
+    "worldfoods:garlic",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:hummus"
+  }
+}

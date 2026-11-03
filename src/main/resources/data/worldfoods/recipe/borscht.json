@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:beetroot",
+    "minecraft:beetroot",
+    "worldfoods:cabbage",
+    "worldfoods:onion",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:borscht"
+  }
+}

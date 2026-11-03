@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:flour",
+    "minecraft:egg",
+    "minecraft:milk_bucket",
+    "minecraft:honey_bottle"
+  ],
+  "result": {
+    "id": "worldfoods:waffles",
+    "count": 2
+  }
+}

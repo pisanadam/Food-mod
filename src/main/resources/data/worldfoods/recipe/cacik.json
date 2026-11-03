@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:yogurt",
+    "worldfoods:cucumber",
+    "worldfoods:garlic",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:cacik"
+  }
+}

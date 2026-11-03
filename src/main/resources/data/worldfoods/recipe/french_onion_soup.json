@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:onion",
+    "worldfoods:onion",
+    "minecraft:bread",
+    "worldfoods:cheese",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:french_onion_soup"
+  }
+}

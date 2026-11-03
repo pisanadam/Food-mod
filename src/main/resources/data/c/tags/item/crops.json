@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "worldfoods:tomato",
+    "worldfoods:lettuce",
+    "worldfoods:onion",
+    "worldfoods:garlic",
+    "worldfoods:rice",
+    "worldfoods:corn",
+    "worldfoods:bell_pepper",
+    "worldfoods:chili_pepper",
+    "worldfoods:eggplant",
+    "worldfoods:cucumber",
+    "worldfoods:soybeans",
+    "worldfoods:chickpeas",
+    "worldfoods:cabbage",
+    "worldfoods:strawberry",
+    "worldfoods:lentils",
+    "worldfoods:coffee_beans",
+    "worldfoods:tea_leaves"
+  ]
+}

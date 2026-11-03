@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "worldfoods:raw_churros",
+    "count": 3
+  }
+}

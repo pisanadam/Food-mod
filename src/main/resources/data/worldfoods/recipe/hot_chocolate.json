@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:chocolate",
+    "minecraft:milk_bucket",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "worldfoods:hot_chocolate"
+  }
+}

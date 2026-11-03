@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:apple",
+    "worldfoods:strawberry",
+    "minecraft:melon_slice",
+    "minecraft:sweet_berries",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:fruit_salad"
+  }
+}

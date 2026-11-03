@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:snowball",
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "worldfoods:strawberry",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:strawberry_ice_cream"
+  }
+}

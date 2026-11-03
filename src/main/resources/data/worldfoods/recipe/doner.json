@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:flatbread",
+    "minecraft:cooked_beef",
+    "worldfoods:tomato",
+    "worldfoods:onion",
+    "worldfoods:lettuce"
+  ],
+  "result": {
+    "id": "worldfoods:doner"
+  }
+}

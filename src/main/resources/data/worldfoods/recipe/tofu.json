@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:soybeans",
+    "worldfoods:soybeans",
+    "worldfoods:soybeans",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "worldfoods:tofu",
+    "count": 2
+  }
+}

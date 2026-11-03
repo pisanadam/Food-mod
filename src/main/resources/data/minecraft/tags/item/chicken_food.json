@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "worldfoods:tomato_seeds",
+    "worldfoods:lettuce_seeds",
+    "worldfoods:onion_seeds",
+    "worldfoods:garlic_seeds",
+    "worldfoods:rice_seeds",
+    "worldfoods:corn_seeds",
+    "worldfoods:bell_pepper_seeds",
+    "worldfoods:chili_pepper_seeds",
+    "worldfoods:eggplant_seeds",
+    "worldfoods:cucumber_seeds",
+    "worldfoods:soybean_seeds",
+    "worldfoods:chickpea_seeds",
+    "worldfoods:cabbage_seeds",
+    "worldfoods:strawberry_seeds",
+    "worldfoods:lentil_seeds",
+    "worldfoods:coffee_seeds",
+    "worldfoods:tea_seeds"
+  ]
+}

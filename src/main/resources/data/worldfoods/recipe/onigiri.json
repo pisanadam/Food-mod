@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:cooked_rice",
+    "worldfoods:cooked_rice",
+    "minecraft:dried_kelp"
+  ],
+  "result": {
+    "id": "worldfoods:onigiri",
+    "count": 2
+  }
+}

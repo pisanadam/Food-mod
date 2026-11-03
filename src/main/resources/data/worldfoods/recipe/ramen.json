@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:pasta",
+    "minecraft:egg",
+    "minecraft:cooked_porkchop",
+    "minecraft:dried_kelp",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:ramen"
+  }
+}

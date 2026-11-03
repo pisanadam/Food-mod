@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "minecraft:potato",
+    "worldfoods:chickpeas",
+    "worldfoods:chili_pepper"
+  ],
+  "result": {
+    "id": "worldfoods:raw_samosa",
+    "count": 2
+  }
+}

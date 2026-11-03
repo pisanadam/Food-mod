@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "worldfoods",
+	"version": "${version}",
+	"name": "World Foods",
+	"description": "Adds dozens of real-world dishes from Turkish, Italian, Japanese, Mexican, Indian and many other cuisines, plus 17 new crops to grow their ingredients. / Dünyanın dört bir yanından onlarca gerçek yemek ve malzemeleri için 17 yeni ekin ekler.",
+	"authors": [
+		"pisanadam"
+	],
+	"contact": {
+		"sources": "https://github.com/pisanadam/Food-mod",
+		"issues": "https://github.com/pisanadam/Food-mod/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/worldfoods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.worldfoods.WorldFoods"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "${minecraft_range}",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

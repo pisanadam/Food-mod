@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "worldfoods:block/lentil_crop_stage0"
+  }
+}

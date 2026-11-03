@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:eggplant"
+  ],
+  "result": {
+    "id": "worldfoods:eggplant_seeds"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "minecraft:sugar",
+    "minecraft:wheat_seeds"
+  ],
+  "result": {
+    "id": "worldfoods:raw_simit",
+    "count": 2
+  }
+}

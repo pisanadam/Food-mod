@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:eggplant",
+    "worldfoods:onion",
+    "worldfoods:tomato",
+    "worldfoods:garlic",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:imam_bayildi"
+  }
+}

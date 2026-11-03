@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_chicken",
+    "worldfoods:cooked_rice",
+    "worldfoods:chili_pepper",
+    "worldfoods:onion",
+    "worldfoods:garlic",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:chicken_curry"
+  }
+}

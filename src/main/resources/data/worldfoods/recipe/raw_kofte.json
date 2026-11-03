@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:minced_meat",
+    "worldfoods:onion",
+    "worldfoods:flour"
+  ],
+  "result": {
+    "id": "worldfoods:raw_kofte",
+    "count": 2
+  }
+}

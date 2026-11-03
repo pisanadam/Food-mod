@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:cooked_rice",
+    "worldfoods:cheese",
+    "minecraft:brown_mushroom",
+    "worldfoods:onion",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:risotto"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:tortilla",
+    "minecraft:cooked_beef",
+    "worldfoods:lettuce",
+    "worldfoods:tomato",
+    "worldfoods:cheese"
+  ],
+  "result": {
+    "id": "worldfoods:taco"
+  }
+}

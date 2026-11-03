@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:egg",
+    "minecraft:egg",
+    "worldfoods:tomato",
+    "worldfoods:bell_pepper",
+    "worldfoods:onion",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:menemen"
+  }
+}

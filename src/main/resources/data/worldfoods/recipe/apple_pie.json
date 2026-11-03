@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:apple",
+    "minecraft:apple",
+    "minecraft:sugar",
+    "worldfoods:dough",
+    "minecraft:egg"
+  ],
+  "result": {
+    "id": "worldfoods:apple_pie"
+  }
+}

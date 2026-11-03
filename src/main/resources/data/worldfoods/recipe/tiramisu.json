@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:roasted_coffee",
+    "worldfoods:cheese",
+    "minecraft:sugar",
+    "minecraft:egg",
+    "minecraft:cocoa_beans"
+  ],
+  "result": {
+    "id": "worldfoods:tiramisu",
+    "count": 2
+  }
+}

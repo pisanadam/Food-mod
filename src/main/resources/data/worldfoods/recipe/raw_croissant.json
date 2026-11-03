@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:dough",
+    "minecraft:egg",
+    "minecraft:sugar"
+  ],
+  "result": {
+    "id": "worldfoods:raw_croissant",
+    "count": 3
+  }
+}

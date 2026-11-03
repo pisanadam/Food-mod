@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "ingredient": "worldfoods:coffee_beans",
+  "result": {
+    "id": "worldfoods:roasted_coffee"
+  }
+}

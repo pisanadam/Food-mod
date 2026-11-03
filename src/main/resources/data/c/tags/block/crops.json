@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "worldfoods:tomato_crop",
+    "worldfoods:lettuce_crop",
+    "worldfoods:onion_crop",
+    "worldfoods:garlic_crop",
+    "worldfoods:rice_crop",
+    "worldfoods:corn_crop",
+    "worldfoods:bell_pepper_crop",
+    "worldfoods:chili_pepper_crop",
+    "worldfoods:eggplant_crop",
+    "worldfoods:cucumber_crop",
+    "worldfoods:soybean_crop",
+    "worldfoods:chickpea_crop",
+    "worldfoods:cabbage_crop",
+    "worldfoods:strawberry_crop",
+    "worldfoods:lentil_crop",
+    "worldfoods:coffee_crop",
+    "worldfoods:tea_crop"
+  ]
+}

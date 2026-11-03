@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:pasta",
+    "worldfoods:tomato_sauce",
+    "worldfoods:minced_meat",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:spaghetti_bolognese"
+  }
+}

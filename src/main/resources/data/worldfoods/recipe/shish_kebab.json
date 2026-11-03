@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:cooked_mutton",
+    "worldfoods:bell_pepper",
+    "worldfoods:onion",
+    "worldfoods:tomato"
+  ],
+  "result": {
+    "id": "worldfoods:shish_kebab"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:tomato_sauce",
+    "worldfoods:cheese"
+  ],
+  "result": {
+    "id": "worldfoods:raw_pizza"
+  }
+}

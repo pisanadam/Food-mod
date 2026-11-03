@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_cod",
+    "worldfoods:french_fries",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "worldfoods:fish_and_chips"
+  }
+}

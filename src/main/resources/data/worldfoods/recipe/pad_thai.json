@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:pasta",
+    "worldfoods:tofu",
+    "minecraft:egg",
+    "worldfoods:chili_pepper",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:pad_thai"
+  }
+}

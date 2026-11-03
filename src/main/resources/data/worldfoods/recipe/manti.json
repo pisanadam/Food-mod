@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:minced_meat",
+    "worldfoods:yogurt",
+    "worldfoods:garlic",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:manti"
+  }
+}

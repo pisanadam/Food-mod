@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:bell_pepper",
+    "worldfoods:cooked_rice",
+    "worldfoods:minced_meat",
+    "worldfoods:onion"
+  ],
+  "result": {
+    "id": "worldfoods:stuffed_peppers",
+    "count": 2
+  }
+}

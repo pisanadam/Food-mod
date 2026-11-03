@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:cheese",
+    "worldfoods:cheese",
+    "minecraft:sugar",
+    "minecraft:egg",
+    "worldfoods:strawberry",
+    "minecraft:wheat"
+  ],
+  "result": {
+    "id": "worldfoods:cheesecake",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:chickpeas",
+    "worldfoods:chickpeas",
+    "worldfoods:onion",
+    "worldfoods:garlic",
+    "worldfoods:flour"
+  ],
+  "result": {
+    "id": "worldfoods:raw_falafel",
+    "count": 3
+  }
+}

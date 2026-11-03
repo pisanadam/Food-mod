@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cocoa_beans",
+    "minecraft:cocoa_beans",
+    "minecraft:sugar",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "worldfoods:chocolate",
+    "count": 3
+  }
+}

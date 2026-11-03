@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:dough",
+    "minecraft:sugar",
+    "minecraft:honey_bottle"
+  ],
+  "result": {
+    "id": "worldfoods:raw_baklava",
+    "count": 4
+  }
+}

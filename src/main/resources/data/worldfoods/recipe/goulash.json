@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_beef",
+    "minecraft:potato",
+    "worldfoods:bell_pepper",
+    "worldfoods:onion",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:goulash"
+  }
+}

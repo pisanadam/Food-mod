@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": "worldfoods:raw_falafel",
+  "result": {
+    "id": "worldfoods:falafel"
+  }
+}

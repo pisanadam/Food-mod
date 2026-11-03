@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:tortilla",
+    "worldfoods:cooked_rice",
+    "minecraft:cooked_chicken",
+    "worldfoods:cheese",
+    "worldfoods:bell_pepper"
+  ],
+  "result": {
+    "id": "worldfoods:burrito"
+  }
+}

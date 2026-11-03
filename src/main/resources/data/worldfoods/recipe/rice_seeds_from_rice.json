@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:rice"
+  ],
+  "result": {
+    "id": "worldfoods:rice_seeds"
+  }
+}

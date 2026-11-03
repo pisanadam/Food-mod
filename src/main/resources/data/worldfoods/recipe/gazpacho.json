@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:tomato",
+    "worldfoods:tomato",
+    "worldfoods:cucumber",
+    "worldfoods:bell_pepper",
+    "worldfoods:garlic",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:gazpacho"
+  }
+}

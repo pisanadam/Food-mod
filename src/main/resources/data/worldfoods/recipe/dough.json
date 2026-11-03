@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:flour",
+    "worldfoods:flour",
+    "worldfoods:flour",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "worldfoods:dough",
+    "count": 3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "minecraft:potato",
+    "worldfoods:onion",
+    "worldfoods:cheese"
+  ],
+  "result": {
+    "id": "worldfoods:raw_pierogi",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:dough"
+  ],
+  "result": {
+    "id": "worldfoods:pasta",
+    "count": 3
+  }
+}

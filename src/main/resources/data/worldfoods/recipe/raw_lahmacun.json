@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:minced_meat",
+    "worldfoods:tomato",
+    "worldfoods:onion",
+    "worldfoods:bell_pepper"
+  ],
+  "result": {
+    "id": "worldfoods:raw_lahmacun",
+    "count": 2
+  }
+}

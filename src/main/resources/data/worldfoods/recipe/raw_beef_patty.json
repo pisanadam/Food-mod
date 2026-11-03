@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:minced_meat",
+    "worldfoods:minced_meat"
+  ],
+  "result": {
+    "id": "worldfoods:raw_beef_patty"
+  }
+}

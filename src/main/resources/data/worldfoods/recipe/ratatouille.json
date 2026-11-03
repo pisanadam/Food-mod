@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:eggplant",
+    "worldfoods:tomato",
+    "worldfoods:bell_pepper",
+    "worldfoods:cucumber",
+    "worldfoods:onion",
+    "minecraft:bowl"
+  ],
+  "result": {
+    "id": "worldfoods:ratatouille"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:dough",
+    "worldfoods:dough",
+    "worldfoods:dough"
+  ],
+  "result": {
+    "id": "worldfoods:raw_baguette",
+    "count": 2
+  }
+}

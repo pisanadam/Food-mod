@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "worldfoods:beef_patty",
+    "worldfoods:cheese",
+    "worldfoods:lettuce",
+    "worldfoods:tomato"
+  ],
+  "result": {
+    "id": "worldfoods:cheeseburger"
+  }
+}

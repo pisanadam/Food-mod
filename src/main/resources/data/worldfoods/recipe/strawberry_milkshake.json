@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "worldfoods:strawberry",
+    "worldfoods:strawberry",
+    "minecraft:milk_bucket",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "worldfoods:strawberry_milkshake"
+  }
+}

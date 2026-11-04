@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "worldfoods-test",
+	"version": "1.0.0",
+	"name": "World Foods in-game tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"com.worldfoods.test.WorldFoodsClientGameTest"
+		]
+	},
+	"depends": {
+		"worldfoods": "*"
+	}
+}

@@ -166,6 +166,14 @@ python3 tools/generate.py          # içeriği yeniden üret
 ./gradlew build -Ptarget=26.3      # başka bir sürüm için derle
 ```
 
+Oyun içi testler gerçek bir Minecraft istemcisi açar, dünya oluşturur ve ekinlerin büyümesini,
+kompostu, yemek yemeyi (kase/şişe geri dönüşü ve efektler dahil) kontrol edip ekran görüntüsü alır.
+Bu komut Minecraft EULA'sını kabul eder:
+
+```sh
+./gradlew runClientGameTest -PclientTests -Ptarget=26.1   # ekranı olmayan Linux'ta: xvfb-run -a ...
+```
+
 `./gradlew test`, üretilen her tarifi ve loot tablosunu oyunun kendi codec'leriyle çözümler; hatalı
 ya da o sürümde yok sayılacak bir alan varsa derleme başarısız olur.
 

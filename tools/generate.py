@@ -15,6 +15,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from content import CROPS, FOODS, CUISINES  # noqa: E402
 import textures  # noqa: E402
+from PIL import Image  # noqa: E402
 
 MODID = "worldfoods"
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
@@ -287,7 +288,7 @@ def main():
     write_json(f"{ASSETS}/lang/en_us.json", dict(sorted(lang_en.items())))
     write_json(f"{ASSETS}/lang/tr_tr.json", dict(sorted(lang_tr.items())))
 
-    textures.icon_texture().save(f"{ASSETS}/icon.png")
+    textures.icon_texture(lambda n: Image.open(f"{ASSETS}/textures/item/{n}.png").convert("RGBA")).save(f"{ASSETS}/icon.png")
 
     # ---------------- java ----------------
     java = f"""// GENERATED FILE - DO NOT EDIT. Regenerate with: python3 tools/generate.py

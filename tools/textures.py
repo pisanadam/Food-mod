@@ -672,8 +672,10 @@ def crop_texture(plant, fruit, stage, seed=0):
             hh = h - rnd.randint(0, 2)
             cv.line([(x, 15), (x + rnd.choice((-1, 0, 1)), 15 - hh)], stem if x % 2 else dark)
         if stage == 3:
-            for x in (2, 8, 14):
-                cv.rect(x - 1, 3, x, 6, fruit)
+            for x in (2, 5, 8, 11, 14):
+                cv.rect(x - 1, 2, x, 6, fruit)
+                cv.set(x - 1, 2, shade(fruit, 1.35))
+                cv.set(x, 6, shade(fruit, 0.7))
     elif plant == "head":
         if stage < 2:
             for x in (4, 8, 12):
@@ -688,8 +690,10 @@ def crop_texture(plant, fruit, stage, seed=0):
         for x in (3, 6, 9, 12):
             cv.line([(x, 15), (x + rnd.choice((-1, 1)), 15 - h)], stem)
         if stage == 3:
-            for x in (3, 9):
-                cv.ellipse(x - 1, 12, x + 3, 15, fruit)
+            for x in (2, 9):
+                cv.ellipse(x - 1, 10, x + 4, 15, shade(fruit, 0.7))
+                cv.ellipse(x, 11, x + 3, 15, fruit)
+                cv.set(x + 1, 12, shade(fruit, 1.4))
     else:  # bush
         for x in (3, 8, 13):
             cv.line([(x, 15), (x, 15 - h)], dark)
@@ -699,15 +703,58 @@ def crop_texture(plant, fruit, stage, seed=0):
             for x in (3, 8, 13):
                 cv.ellipse(x - 2, 15 - h, x + 2, 15 - h + 4, stem)
         if stage == 3:
-            for (x, y) in [(2, 6), (7, 4), (12, 7), (4, 10), (10, 11), (13, 3)]:
-                cv.rect(x, y, x + 1, y + 1, fruit)
+            # big, clearly visible fruit with a highlight and a shadow pixel
+            for (x, y) in [(1, 5), (6, 3), (11, 6), (3, 10), (9, 9), (13, 2), (6, 12), (12, 12)]:
+                cv.rect(x, y, x + 2, y + 2, fruit)
+                cv.set(x, y, shade(fruit, 1.4))
+                cv.set(x + 2, y + 2, shade(fruit, 0.65))
     return cv.img
 
 
-def icon_texture():
-    img = Image.new("RGBA", (128, 128), (0, 0, 0, 0))
-    big = item_texture("bowl", ["#e88a2f", "#f0a24a", "#3f8f2f"], 3).resize((96, 96), Image.NEAREST)
-    pizza = item_texture("pizza", ["#d9a55e", "#c8281c", "#f5e08a"], 4).resize((64, 64), Image.NEAREST)
-    img.alpha_composite(big, (0, 32))
-    img.alpha_composite(pizza, (64, 0))
+def logo(size, tex):
+    """Mod logo: a few signature dishes on a warm rounded tile.
+
+    tex(name) must return the 16x16 item texture of that item.
+    """
+    from PIL import ImageFilter
+
+    k = size / 512
+    img = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+
+    # background: rounded square with a vertical warm gradient
+    bg = Image.new("RGBA", (size, size))
+    top, bottom = hex2rgb("#ffb347"), hex2rgb("#d9432b")
+    for y in range(size):
+        t = y / (size - 1)
+        c = tuple(int(a + (b - a) * t) for a, b in zip(top, bottom))
+        ImageDraw.Draw(bg).line([(0, y), (size, y)], fill=(*c, 255))
+    # subtle checker "tablecloth" pattern
+    cell = max(1, int(64 * k))
+    pat = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    pd = ImageDraw.Draw(pat)
+    for yy in range(0, size, cell):
+        for xx in range(0, size, cell):
+            if (xx // cell + yy // cell) % 2 == 0:
+                pd.rectangle([xx, yy, xx + cell - 1, yy + cell - 1], fill=(255, 255, 255, 28))
+    bg.alpha_composite(pat)
+    mask = Image.new("L", (size, size), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, size - 1, size - 1], radius=int(96 * k), fill=255)
+    img.paste(bg, (0, 0), mask)
+
+    def place(name, px, x, y):
+        sprite = tex(name).resize((int(px * k), int(px * k)), Image.NEAREST)
+        shadow = Image.new("RGBA", sprite.size, (0, 0, 0, 0))
+        shadow.putalpha(sprite.split()[3].point(lambda a: 90 if a else 0))
+        shadow = shadow.filter(ImageFilter.GaussianBlur(max(1, int(6 * k))))
+        img.alpha_composite(shadow, (int((x + 10) * k), int((y + 14) * k)))
+        img.alpha_composite(sprite, (int(x * k), int(y * k)))
+
+    place("pizza", 224, 32, 40)
+    place("doner", 224, 256, 32)
+    place("tomato", 128, 368, 300)
+    place("lentil_soup", 320, 96, 176)
     return img
+
+
+def icon_texture(tex):
+    return logo(128, tex)

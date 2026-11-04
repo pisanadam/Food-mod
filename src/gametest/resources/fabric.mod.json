@@ -6,7 +6,8 @@
 	"environment": "*",
 	"entrypoints": {
 		"fabric-client-gametest": [
-			"com.worldfoods.test.WorldFoodsClientGameTest"
+			"com.worldfoods.test.WorldFoodsClientGameTest",
+			"com.worldfoods.test.ShowcaseScreenshots"
 		]
 	},
 	"depends": {

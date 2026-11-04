@@ -43,6 +43,7 @@ public final class ModContent {
 	public static final List<Item> SEEDS = new ArrayList<>();
 	public static final List<Item> PRODUCE = new ArrayList<>();
 	public static final List<Item> DISHES = new ArrayList<>();
+	public static CreativeModeTab TAB;
 
 	private ModContent() {
 	}
@@ -56,12 +57,17 @@ public final class ModContent {
 			DISHES.add(registerFood(food, Compost.NONE));
 		}
 
-		CreativeModeTab tab = FabricCreativeModeTab.builder()
+		TAB = FabricCreativeModeTab.builder()
 				.title(Component.translatable("itemGroup." + WorldFoods.MOD_ID))
 				.icon(() -> new ItemStack(ITEMS.getOrDefault("doner", Items.BREAD)))
-				.displayItems((params, output) -> ITEMS.values().forEach(output::accept))
+				.displayItems((params, output) -> {
+					// crops first, then ingredients and dishes, seeds last
+					PRODUCE.forEach(output::accept);
+					DISHES.forEach(output::accept);
+					SEEDS.forEach(output::accept);
+				})
 				.build();
-		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, WorldFoods.id("main"), tab);
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, WorldFoods.id("main"), TAB);
 	}
 
 	private static void registerCrop(CropDef crop) {

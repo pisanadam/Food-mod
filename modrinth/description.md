@@ -14,7 +14,7 @@
 - **Real cooking**: craft a *raw* pizza, köfte, lahmacun or croissant, then bake it in a furnace, smoker or campfire
 - **Containers come back**: soups and stews give back the bowl, drinks give back the glass bottle, and the shish kebab gives back its stick
 - **Food with effects**: Turkish coffee (Speed + Haste), Turkish tea (Regeneration), kimchi (Resistance), chicken curry and chili peppers (Fire Resistance), miso soup (Water Breathing), hot chocolate (Absorption), latte (Speed)
-- **Vanilla-friendly farming**: bone meal, Fortune and composting work, and villagers pick up and plant the new seeds
+- **Vanilla-friendly farming**: bone meal, Fortune and composting all work
 - **Its own creative tab** and full **English + Turkish** translations
 
 ## 🌱 Getting started
@@ -50,7 +50,7 @@ The mod is needed **on both the client and the server**.
 
 ## ✅ Tested in-game
 
-Every release is tested automatically inside a real Minecraft client on 26.1, 26.2 and 26.3. The tests check that every crop grows, that produce can be composted, that every dish restores the right hunger and returns its bowl or bottle, that effects apply, and that every recipe and loot table loads without errors.
+This release was tested inside a real Minecraft client on 26.1, 26.2 and 26.3. The tests check that every crop grows, that produce can be composted, that every dish restores the right hunger and returns its bowl or bottle, that effects apply, and that every recipe and loot table loads without errors.
 
 ## 💬 Feedback
 
@@ -70,7 +70,7 @@ Found a bug or want a dish from your country? Open an issue on [GitHub](https://
 - **Gerçek pişirme**: çiğ pizza, çiğ köfte veya çiğ lahmacun hazırla, sonra fırında, tütsülükte ya da kamp ateşinde pişir
 - **Kaplar geri gelir**: çorbalar kaseyi, içecekler şişeyi, şiş kebap da çubuğu geri verir
 - **Etkili yemekler**: Türk kahvesi (Hız + Acele), Türk çayı (Yenilenme), kimçi (Direnç), köri ve acı biber (Ateş Direnci), miso çorbası (Su Altında Nefes), sıcak çikolata (Emilim)
-- **Vanilyaya uygun tarım**: kemik tozu, Servet büyüsü ve kompost çalışır; köylüler yeni tohumları toplayıp eker
+- **Vanilyaya uygun tarım**: kemik tozu, Servet büyüsü ve kompost çalışır
 - **Kendi yaratıcı mod sekmesi** ve tam **Türkçe + İngilizce** çeviri
 
 ## 🌱 Nasıl başlanır?
